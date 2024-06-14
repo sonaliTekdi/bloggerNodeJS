@@ -1,0 +1,20 @@
+We have a Node.js application with three types of users: Admin, Blogger, and User. Each user type has specific permissions and roles as described below:
+
+User
+
+Can add comments on blogs.
+Blogger
+
+Can add new blogs.
+Can edit their own blogs.
+Admin
+
+Can delete comments made by users.
+Can add new blogs.
+Can delete any blogs.
+Can update blogs written by bloggers.
+Our goal is to implement the following functionality:
+
+Ensure that only users with the appropriate roles can perform their respective actions.
+Properly manage permissions to maintain a secure and organized environment.
+Implementing these functionalities will involve setting up role-based access control within the Node.js application. This will ensure that each user type can only perform actions allowed by their roles.
